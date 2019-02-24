@@ -1,0 +1,13 @@
+<h1 id="one"> LinkedIn </h1>
+<h2 id="two"> Make the most of your Professional life </h2>
+<div id="three">
+Email <br>
+<input type="text" #abc style="width:99%;"><br><br>
+Password (6 or more characters)<br>
+<input type="password" #def style="width:99%;">
+<p id="four"> You agree to the LinkedIn User Agreement, Privacy Policy, and Cookie Policy. </p> 
+<button id="five" (click)="apple(abc.value, def.value)"> Agree & Join </button>
+<p style="color:black; text-align: center;"> Already in LinkedIn? <a routerLink = "/vsign" routerLinkActive = "active"> sign In</a></p>
+</div>
+<router-outlet></router-outlet>
+<br>
